@@ -83,3 +83,12 @@ p.lead {
   content: '_____';
   color: white;
 }
+
+.row:hover{
+  color: $primary;  
+  background-color: $gray-200; 
+}
+
+.rowProjectDivider {
+  float: right;
+}

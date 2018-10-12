@@ -14,3 +14,9 @@ a {
     color: darken($primary, 15%);
   }
 }
+
+.btn-link {
+  color: $primary;
+  font-size: 120%;
+  font-weight: 800;
+}

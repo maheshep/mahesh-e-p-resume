@@ -88,6 +88,15 @@ p.lead {
   color: white;
 }
 
+.row:hover {
+  color: #37425D;
+  background-color: #e9ecef;
+}
+
+.rowProjectDivider {
+  float: right;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -194,4 +203,10 @@ a {
 
 a:hover, a:focus, a:active {
   color: #1b202d;
+}
+
+.btn-link {
+  color: #37425D;
+  font-size: 120%;
+  font-weight: 800;
 }
