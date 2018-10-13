@@ -93,8 +93,11 @@ p.lead {
   background-color: #e9ecef;
 }
 
-.rowProjectDivider {
-  float: right;
+@media (max-width: 575px) {
+  .projects-col-1 {
+    font-weight: bold;
+    padding-top: 3%;
+  }
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -207,6 +210,11 @@ a:hover, a:focus, a:active {
 
 .btn-link {
   color: #37425D;
-  font-size: 120%;
-  font-weight: 800;
+  font-weight: 900;
+}
+
+@media (min-width: 576px) {
+  .btn-link {
+    font-size: 2rem;
+  }
 }

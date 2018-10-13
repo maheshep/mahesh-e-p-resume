@@ -89,6 +89,9 @@ p.lead {
   background-color: $gray-200; 
 }
 
-.rowProjectDivider {
-  float: right;
+@media (max-width: 575px) {
+  .projects-col-1 {
+    font-weight: bold;
+    padding-top: 3%; 
+  }
 }
